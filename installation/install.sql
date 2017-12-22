@@ -1,5 +1,5 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+07:00";
+SET time_zone = "+08:00";
 CREATE TABLE IF NOT EXISTS `server` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `servername` varchar(255) NOT NULL,

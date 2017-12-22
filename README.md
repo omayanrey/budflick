@@ -1,44 +1,40 @@
-OcsPanels
+VPNSSH Panel
 =========
-Simple and lightweight panel for Reseller SSH based on Webmin API, 100% free.
+Simple and lightweight panel for Reseller SSHVPN based on Webmin API, 100% free.
 
 Features
 -------
-* **Sistem Deposit** : Seller cukup Deposit, sudah bisa create Account SSH sendiri.
-* **Remote Webmin** : cukup 1 panel bisa dipakai untuk banyak VPS.
+* **Add Credits** : Seller with credits can buy sshvpn for clients.
+* **Remote Webmin** : Web Panel for all VPS.
 
 Requirements
 ---------
 
 ##### Hosting
-* PHP versi 5.3.4 keatas.
-* MySQL versi 5.0.0 keatas.
+* PHP version 5.3.4 and above.
+* MySQL version 5.0.0 and above.
 
 ##### VPS
 * Webmin
-* Perl XML::Parser Module (biasa otomatis terinstall bersama webmin)
+* Perl XML::Parser Module (usually installed automatically with webmin)
 
 Installation
 ------------
-1. Upload / Hosting ke Cpanel / VPS yang sudah diinstall WebServer.
-2. Buat Database di MySQL.
-3. Masuk ke `http://*domainmu_atau_ip_VPS*/` dan Ikuti langkah-langkah.
-4. Setelah selesai hapus folder `Installation/`.
+1. Upload / Hosting to Cpanel / VPS already installed WebServer.
+2. Create Database in MySQL.
+3. Sign in to `http://*your.vps.ip*/` and follow the steps.
+4. When done delete folder `Installation/`.
 
 Contributing
 ------------
-Jika menemukan masalah silahkan *Create Issue* & *Pull Request*.
+If it finds a problem please * Create Issue * & * Pull Request *.
 
-Creadits
+Credits
 --------
-Specials Thank
+Specials Thanks To:
 
-* Turut Dwi Hariyanto ([Aneka VPS](http://anekavps.us))
-
-Donations
----------
-* Bitcoin `16eREUFTF8w51Me1uyLj4LBvpfpPvEJu8K`
-* Bank BNI `0347993209` a/n `M RIFAN ADE NOVID`
+* Aneka VPS
+------------
 
 Copyright & License
 -------

@@ -25,15 +25,15 @@ class Home extends Controller {
 	function NewPass($f3) {
 		$me = $this->me;
 		if ( ! Check::pass($f3->get('POST.oldpass'), $me->password)) {
-			$this->flash('Password Lama Salah');
+			$this->flash('Old Password is incorrect');
 		} elseif ( ! Check::confirm('POST.password')) {
-			$this->flash('Konfirmasi Password Tidak Cocok');
+			$this->flash('Password not matched');
 		} elseif ( ! $f3->exists('POST.password',$pass)) {
-			$this->flash('Password Tidak Boleh Kosong');
+			$this->flash('Password cannot be blank');
 		} else {
 			$me->password = $pass;
 			$me->save();
-			$this->flash('Ganti Password Succes','success');
+			$this->flash('Succesfully Modified...','success');
 		}
 		$f3->reroute($f3->get('URI'));
 	}
